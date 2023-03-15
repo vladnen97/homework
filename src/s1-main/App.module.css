@@ -1,0 +1,26 @@
+.App {
+    --header_height: 60px;
+    padding: 150px 0;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hw {
+    min-height: 300px;
+    border-top: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    padding: 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hwTitle {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}

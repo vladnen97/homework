@@ -1,0 +1,62 @@
+.button {
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: none;
+    min-width: 100px;
+    font-size: 16px;
+    transition: all .1s linear;
+}
+
+.disabled {
+    background-color: dodgerblue;
+    color: #000;
+    opacity: 0.5;
+}
+
+.secondary {
+    background-color: #fff;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+.default {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.red {
+    background-color: red;
+    color: #fff;
+
+}
+
+.default:hover {
+    background-color: #136eca;
+}
+
+.red:hover {
+    background-color: #7a1717;
+}
+
+.secondary:hover {
+    background-color: #ececff;
+
+}
+
+
+.default:active {
+    background-color: dodgerblue;
+
+}
+
+.secondary:active {
+    background-color: #fff;
+}
+
+.red:active {
+    background-color: red;
+
+}
+
+.button:disabled {
+}
