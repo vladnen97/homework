@@ -4,6 +4,7 @@ import s from './App.module.css'
 import HW5 from '../s2-homeworks/hw05/HW5';
 
 function App() {
+    alert('hello')
     return (
         <div className={s.App}>
             {/*<HW1/>*/}
