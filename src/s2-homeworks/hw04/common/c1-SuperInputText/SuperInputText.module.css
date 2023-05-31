@@ -1,4 +1,5 @@
 .input:focus {
+    border: 1px solid dodgerblue;
 }
 
 .input {
@@ -24,6 +25,7 @@
 }
 
 .errorInput:focus {
+    border: 1px solid red;
 }
 
 .error {
